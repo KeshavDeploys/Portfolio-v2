@@ -218,7 +218,7 @@ export default function PortfolioCrazyV2() {
 
             {/* Resume link (mobile) */}
             <a
-              href="/Portfolio-v2/resume.pdf"
+              href={`${import.meta.env.BASE_URL}resume.pdf`}
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 py-2 px-3 rounded-lg border border-purple-900/30 text-purple-200 hover:bg-purple-900/20"
@@ -255,7 +255,7 @@ export default function PortfolioCrazyV2() {
                   <span>see projects</span>
                 </a>
                 {/* Small resume CTA inside hero for mobile users */}
-                <a href="/Portfolio-v2/resume.pdf" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-4 sm:px-5 py-3 rounded-xl border-2 border-purple-600 text-purple-300 hover:bg-purple-600 hover:text-white transition-all min-h-[44px]">
+                <a href={`${import.meta.env.BASE_URL}resume.pdf`} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-4 sm:px-5 py-3 rounded-xl border-2 border-purple-600 text-purple-300 hover:bg-purple-600 hover:text-white transition-all min-h-[44px]">
                   <FileCheck className="w-4 h-4" />
                   <span>resume</span>
                 </a>
